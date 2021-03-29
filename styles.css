@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+li {
+    display:inline;
+    padding: 1%;
+}
+
+.current-page {
+    background-color:rgb(173, 218, 233);
+}
+
+li:hover {
+    background-color:lightblue;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: darkblue;
+    margin-left: -3.5%;
+}
+
+input:focus {
+   border: 10px solid aquamarine;
+}
